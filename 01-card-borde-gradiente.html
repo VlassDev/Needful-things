@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-border-gradient</title>
+    <style>
+        :root {
+		--border-color: linear-gradient(
+			to right,
+			tomato 0%,
+			gold 100% 
+		);
+		--card-color: #444
+	}
+
+	.card {
+		background: var(--border-color);
+		aspect-ratio: 10/16;
+		width: 200px;
+		padding: 5px;
+		border-radius: 16px;
+		position: relative;
+	}
+
+	.card-body {
+		background: var(--card-color);
+		display: flex;
+        flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		border-radius: 12px;
+	}
+
+    #name {
+		color: white
+	}
+    img{
+        object-fit: cover; /* para que no se deforme */
+        border-radius: 50%; 
+    }
+    </style>
+</head>
+<body>
+    <article class="card">
+        <div class="card-body">
+            <img src="/assets/logo.jpeg" alt="" width="40px">
+            <p id="name">@VlassDev</p>
+        </div>
+    </article>
+</body>
+</html>
