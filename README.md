@@ -6,6 +6,6 @@
 
 ![Descripción alternativa](/assets/%20resources/01.png)
 
-### 02: Degradado a trasnparente en una imagen
+### 02: Degradado a transparente en una imagen
 
 ![Descripción alternativa](/assets/%20resources/02.png)
